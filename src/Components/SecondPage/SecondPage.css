@@ -1,0 +1,57 @@
+.second-bg{
+    background-color: #FADADD;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 8rem; */
+    padding: 0 1.5rem;
+
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23fadaddff'/><path d='M0 0v40h6.304c.321-.385.594-.74.804-1.062.379-.581.602-1.083.737-1.549.136-.466.184-.896.138-1.403a4.3 4.3 0 0 0-.472-1.635 4.1 4.1 0 0 0-1.225-1.398 3.85 3.85 0 0 0-1.646-.646 4.25 4.25 0 0 0-1.824.095 4.3 4.3 0 0 0-1.69.936Q.95 33.5.8 33.675V5.18a54 54 0 0 0 1.832-1.532 48 48 0 0 0 2.775-2.643C5.76.636 6.044.31 6.304 0zm33.696 0c.26.31.545.636.896 1.004a48 48 0 0 0 2.776 2.643A54 54 0 0 0 39.2 5.179v28.496a4 4 0 0 0-.326-.337 4.3 4.3 0 0 0-1.69-.936 4 4 0 0 0-1.15-.151 5 5 0 0 0-.674.056 3.85 3.85 0 0 0-1.646.646 4.1 4.1 0 0 0-1.225 1.398 4.4 4.4 0 0 0-.472 1.635c-.045.507 0 .937.138 1.403.135.466.359.967.737 1.548.21.322.483.678.804 1.063H40V0z'  stroke-width='1' stroke='none' fill='%23ff6f91ff'/><path d='M19.2 0v13.675a4 4 0 0 0-.326-.337 4.3 4.3 0 0 0-1.69-.935 4 4 0 0 0-1.15-.152 5 5 0 0 0-.674.056 3.85 3.85 0 0 0-1.646.646 4.1 4.1 0 0 0-1.225 1.398 4.4 4.4 0 0 0-.472 1.635c-.045.507 0 .937.138 1.403.135.466.359.967.737 1.548s.912 1.243 1.7 2.067a48 48 0 0 0 2.776 2.643 54 54 0 0 0 1.832 1.532v14.82h1.6V25.18a54 54 0 0 0 1.832-1.532 48 48 0 0 0 2.776-2.643c.788-.824 1.322-1.485 1.7-2.067.379-.58.602-1.082.737-1.548.136-.466.184-.896.138-1.403a4.3 4.3 0 0 0-.472-1.635 4.1 4.1 0 0 0-1.225-1.398 3.85 3.85 0 0 0-1.646-.646 4.25 4.25 0 0 0-1.824.095 4.3 4.3 0 0 0-1.69.936q-.175.161-.326.337V0z'  stroke-width='1' stroke='none' fill='%23e63946ff'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>")
+
+}
+
+.ques{
+    font-size: 3rem;
+    font-family: "Sour Gummy", sans-serif;
+    color: #4A2C2A;
+    font-weight: 700;
+    padding-top: 8rem;
+    flex: 3;
+    text-align: center;
+}
+
+.reply-gif{
+    flex: 3;
+}
+
+.btn-container{
+    display: flex;
+    gap: 2rem;
+    flex: 7;
+
+}
+.yes-slot{
+  width: 120px;
+  height: 60px;
+}
+
+.btn-container button{
+    width: 120px;
+    height: 60px;
+
+    background-color:#E63946;
+    color: #FFF7F9;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: "Quicksand";
+    border: 5px solid #4A2C2A;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer; 
+
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}

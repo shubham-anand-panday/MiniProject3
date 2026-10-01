@@ -1,0 +1,73 @@
+.fourth-bg{
+    background-color:#FADADD;
+    min-height: 100vh;
+    color: #4A2C2A;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.top{
+    font-size: 2.5rem;
+}
+.fourth-heading{
+    /* padding-top: 2rem; */
+    font-size: 3.5rem;
+    font-family: "Great Vibes", cursive;
+
+    color: #4A2C2A;
+
+}
+
+.ready-ask{
+    margin-top: 4rem;
+    font-size: 3.5rem;
+    font-family: "Pacifico", cursive;
+    font-family: "Love Light", cursive;
+
+    color: #E63946;
+
+}
+.start-button{
+    background-color: #C44569;
+    margin-top:2rem ;
+    color:#4A2C2A;
+    text-transform: uppercase;
+    padding: 0.8rem 1.5rem;
+    font-size: 2.5rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+
+.media-box img,
+.media-box video {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 4rem;
+}
+
+
+.floating-item {
+  position: absolute;
+  bottom: -200px;
+  animation: floatUp 5s linear infinite;
+  animation-delay: 3s;
+  opacity: 0.8;
+  color: #ff6fae;
+  font-weight: 700;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-130vh) scale(0.9);
+    opacity: 0;
+  }
+}
